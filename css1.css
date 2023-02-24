@@ -1,0 +1,35 @@
+ /* Selector por clase 
+h1.Titulo {
+    border: 1px solid blueviolet;
+    box-shadow: 10px 5px 5px orangered;
+    { */
+
+/* Selector de atributo sin importar el valor */
+/* [lang="es-mx"] {
+    background-color: red;
+} */
+
+/* [herf$="org"] {
+    background-color: aqua;
+}
+
+a[herf^="#"] {
+    background-color: brown;
+}
+    
+a[herf~="rana"] {
+    font-size: 85px;
+} */
+
+/* Selector de descendientes*/
+/* main p {
+    border-bottom: blanchedalmond;
+} */
+
+/* Selector de hijos directos */
+main > p {
+
+    border-bottom: royalblue;
+}
+
+  
